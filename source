@@ -1,3 +1,6 @@
 echo I am sourced
-
-
+source ~/.local/etc/bh/source
+require bh
+require configure_prompt
+require trap_exit
+require go
